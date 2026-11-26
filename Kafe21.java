@@ -1,7 +1,8 @@
 public class Kafe21 {
     public static void main(String[] args) {
-        Menu("Andi", false);
+        Menu("Andi", true);
     }
+
     public static void Menu(String namaPelanggan, boolean isMember) {
         System.out.println("Selamat Datang, " + namaPelanggan + "!");
 
@@ -18,6 +19,6 @@ public class Kafe21 {
         System.out.println("6. Mie Goreng - Rp 18,000");
         System.out.println("===========================");
         System.out.println("Silakan pilih menu yang Anda inginkan.");
-        }
-    
+    }
+
 }
