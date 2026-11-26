@@ -12,25 +12,25 @@ public class HitungBalok21 {
     }
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         int p, l, t, L, vol;
 
         System.out.println("Masukkan panjang");
-        p = input.nextInt();
+        p = sc.nextInt();
 
         System.out.println("Masukkan lebar");
-        l = input.nextInt();
+        l = sc.nextInt();
 
         System.out.println("Masukkan tinggi");
-        t = input.nextInt();
+        t = sc.nextInt();
 
         L = hitungLuas(p, l);
         System.out.println("Luas Persegi Panjang adalah " + L);
 
         vol = hitungVolume(t, p, l);
         System.out.println("Volume Balok adalah " + vol);
-        input.close();
+        sc.close();
     }
 }
 
